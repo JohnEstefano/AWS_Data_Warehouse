@@ -57,7 +57,11 @@ start_time, hour, day, week, month, year, weekday
 
 ## REPO CONTENTS
 *create_table.py* creates fact and dimension tables for the star schema in Redshift.
+
 *etl.py* starts ETL that loads data from S3 into staging tables on Redshift and then process that data into analytics tables on Redshift.
+
 *sql_queries.py* SQL statements reference
+
 *launch_redshift* Launches Redshift cluster
+
 *README.md* project description
